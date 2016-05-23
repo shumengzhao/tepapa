@@ -1,0 +1,32 @@
+.rss-feed {
+    background-color: #2c3e50;
+    height: calc(100vh - 118px);
+}
+
+.live-search-box {
+    width: calc(100% - 64px);
+    height: 35px;
+    display: block;
+    padding: 1em;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+.rss-feed ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rss-feed a {
+    text-decoration: none;
+    color: #fff;
+}
